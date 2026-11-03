@@ -1,0 +1,23 @@
+{
+  "skill_name": "rsa-ad-writer",
+  "evals": [
+    {
+      "id": 0,
+      "prompt": "I need RSA copy for my Google Ads campaign. We sell project management software called TaskFlow — it's aimed at marketing agencies that are juggling 10+ client projects and losing track of deadlines. Our main differentiators are a visual timeline view, automated client reporting, and we're the only tool with built-in time tracking + invoicing. Keywords for this ad group are around 'project management software for agencies'. We're offering a free 14-day trial, no credit card needed. Landing page: https://www.teamwork.com",
+      "expected_output": "15 headlines (all ≤30 chars), 4 descriptions (all ≤90 chars), covering all 6 thematic categories, with an Ad Strength assessment, pinning recommendations, and a saved .xlsx file",
+      "files": []
+    },
+    {
+      "id": 1,
+      "prompt": "Can you write Google Ads copy for my plumbing business? We're based in Austin TX, we do emergency plumbing — burst pipes, blocked drains, gas leaks. We're available 24/7 and we guarantee to arrive in 60 minutes or less. Our competitors mostly advertise on price but we're positioning on speed and reliability. We don't have a website yet so no URL. Target keywords: 'emergency plumber Austin', '24 hour plumber Austin'",
+      "expected_output": "15 headlines (all ≤30 chars), 4 descriptions (all ≤90 chars), with strong urgency and local signals, covering all 6 categories, plus strategic notes and .xlsx output",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "write ads for our SaaS product — it's an AI meeting notes tool. here's the landing page: https://www.otter.ai — we want to target people searching for 'meeting transcription software' and 'AI meeting notes'. our audience is ops managers and EAs at mid-size companies (200-1000 employees) who are drowning in meetings and hate manual note-taking. main selling points: real-time transcription, auto-generated summaries, integrates with Zoom/Teams/Meet, $8.33/month on annual plan",
+      "expected_output": "15 headlines (all ≤30 chars), 4 descriptions (all ≤90 chars), messaging pulled from the actual Otter.ai landing page, all 6 categories covered, Ad Strength notes, .xlsx output",
+      "files": []
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+Example run: emergency plumber in Austin, TX
+Input: 24/7 emergency plumbing (burst pipes, blocked drains, gas leaks), 60-minute arrival guarantee,
+competing on speed and reliability instead of price. Keywords: "emergency plumber Austin", "24 hour plumber Austin".
+No landing page yet.
+
+HEADLINES
+H1: Emergency Plumber Austin (24) - Feature [pin: 1]
+H2: 24 Hour Plumber Austin (22) - Feature
+H3: At Your Door in 60 Minutes (26) - Offer
+H4: Burst Pipe? Call Us Now (23) - Pain point
+H5: Gas Leak Help, Day or Night (27) - Pain point
+H6: Drain Blocked? We Fix It Fast (29) - Benefit
+H7: Open 24/7, Holidays Too (23) - Feature
+H8: 60-Minute Arrival Guarantee (27) - Proof
+H9: Austin's Fast Plumbing Team (27) - Proof
+H10: Stop the Water Damage Today (27) - Benefit
+H11: A Real Plumber Picks Up (23) - Benefit
+H12: Speed You Can Count On (22) - Benefit
+H13: No Waiting Until Monday (23) - Pain point
+H14: Call Now for Fast Help (22) - CTA
+H15: Book Your Emergency Visit (25) - CTA
+
+DESCRIPTIONS
+D1: Burst pipe or gas leak? A plumber at your door in 60 minutes or less. Call now. (79) - Offer
+D2: Open 24/7, nights, weekends and holidays. A real person answers every call. (75) - Feature
+D3: Burst pipes, blocked drains and gas leaks, handled any hour. Book online now. (77) - Benefit
+D4: Stop water damage before it spreads. Fast, reliable help across Austin. Call today. (83) - CTA

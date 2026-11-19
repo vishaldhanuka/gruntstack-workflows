@@ -1,0 +1,23 @@
+{
+  "skill_name": "youtube-outlier-finder",
+  "evals": [
+    {
+      "id": 0,
+      "prompt": "Find what's working on YouTube for 'google ads for local business' in the last 90 days and give me 10 title ideas for my channel. My audience is small business owners who run their own ads.",
+      "expected_output": "Writes 2-4 viewer-style search phrases, runs find_outliers.py, names a pattern per top video using the score/median_from/age_days context, writes ideas.csv that borrows patterns not words, runs build_sheet.py, and returns the top patterns, best ideas and outliers-and-ideas.xlsx",
+      "files": []
+    },
+    {
+      "id": 1,
+      "prompt": "These are my competitors on YouTube: @competitor1, @competitor2, @competitor3. Which of their videos broke out in the last 6 months, and what hooks should I test in my YouTube ads?",
+      "expected_output": "Runs channel mode with --days 180, explains scores as multiples of each channel's median, writes hooks (not titles) with --mode hooks, flags patterns resting on one video, and notes that views show attention, not sales",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "outlier videos for meal prep, last 30 days, shorts only",
+      "expected_output": "Uses --shorts only and --days 30, widens the search and says so if few outliers come back, and treats very new videos' scores as still climbing",
+      "files": []
+    }
+  ]
+}

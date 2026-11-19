@@ -1,0 +1,23 @@
+{
+  "skill_name": "youtube-comment-miner",
+  "evals": [
+    {
+      "id": 0,
+      "prompt": "I run Google Ads for local dentists. Mine the comments on the last 10 videos from a big dental marketing channel (pick one) and tell me what dentists are worried about, so I can write better ads and landing pages.",
+      "expected_output": "Asks for or confirms the channel handle, checks YOUTUBE_API_KEY without asking for it in chat, runs fetch_comments.py, writes tags.csv with specific themes in commenters' words, runs rank_themes.py, then gives the top themes with votes from the script, real quotes, ad angles and objection answers, and themes.xlsx",
+      "files": []
+    },
+    {
+      "id": 1,
+      "prompt": "Here's my channel: https://www.youtube.com/@mychannel. What should my next 5 videos be? Use what my viewers are asking for.",
+      "expected_output": "Reads the user's own latest uploads, ranks themes, and proposes video topics with 3 titles each, tied to the themes with the most votes, with quoted comments as evidence and a note on sample size if comments are few",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Pull the comments from https://youtu.be/dQw4w9WgXcQ and https://youtu.be/9bZkp7q19f0 and tell me the most common questions.",
+      "expected_output": "Accepts video links, reports any skipped videos, tags and ranks, lists the top questions with votes and quotes, and states that comments skew towards engaged viewers",
+      "files": []
+    }
+  ]
+}

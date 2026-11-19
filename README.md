@@ -6,7 +6,7 @@ Each workflow has the same three parts:
 
 1. **Instructions** (`SKILL.md`): a written guide the AI follows, step by step.
 2. **Scripts** (`scripts/`): Python that pulls data, does the math and builds the files, so the numbers come out right every time.
-3. **Examples** (`examples/`): a real run so you can see what you get before you start.
+3. **Examples** (`examples/`, where there is one): a real run so you can see what you get before you start.
 
 The AI makes the judgment calls. The scripts do anything that has to be exact.
 
@@ -15,6 +15,8 @@ The AI makes the judgment calls. The scripts do anything that has to be exact.
 | Workflow | What it does | Status |
 |---|---|---|
 | [Responsive search ad writer](workflows/rsa-ad-writer/) | Writes 15 headlines and 4 descriptions per ad group from your landing page, checks them, and builds a Google Ads Editor file. | Free |
+| [YouTube comment miner](workflows/youtube-comment-miner/) | Pulls the comments from your or a competitor's YouTube videos, ranks what people ask for and object to, and turns it into ad angles, FAQs or video topics. | Free |
+| [YouTube outlier finder](workflows/youtube-outlier-finder/) | Finds videos that beat their channel's usual views, names the pattern behind them, and writes titles or ad hooks from it. | Free |
 
 More are on the way: https://gruntstack.com/workflows/
 
